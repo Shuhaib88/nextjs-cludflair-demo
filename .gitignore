@@ -16,6 +16,12 @@
 # OpenNext
 # /.open-next
 
+# wrangler files
+# .wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
+
 # production
 /build
 
@@ -38,8 +44,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# wrangler files
-# .wrangler
-.dev.vars*
-!.dev.vars.example
-!.env.example
+
